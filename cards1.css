@@ -1,0 +1,133 @@
+body {
+    background: url("./att.OA028wU-5HgB9aDHi6z8uPRgv7mW7AbK7mxW8YDmEwA.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+#board {
+    height: 532px;
+    width: 475px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    border: 10px solid lightgrey;
+}
+#board #back {
+    height: 532px;
+    width: 475px;
+}
+
+
+.card {
+    height: 128px;
+    width: 90px;
+    margin: 2.5px;
+}
+.nav{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration:
+    none;
+    list-style-type:none;
+}
+h2{
+    text-align: center;
+}
+.popup{
+    width: 200px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding:0 30px 30px ;
+    color:#333;
+   display: none;
+}
+.popup h2{
+    font-size: 38px;
+    font-weight:500;
+    margin:20px 0 10px;
+}
+
+.popup input{
+    width: 100%;
+    margin-top: 50px;
+    padding:10px 0;
+    background-color:rgb(234, 63, 91);
+    color:#fff;
+    border:0;
+    outline: none;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: 
+    none;   
+}
+
+.game-container {
+    text-align: center;
+}
+
+.timer {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+#btns {
+width: 100%;
+
+padding:10px 0;
+color:rgb(234, 63, 91);
+border:0;
+outline: none;
+border-radius: 4px;
+cursor: pointer;
+box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.game-container{
+    font-size: 20px;
+}
+
+#start-button{
+    
+    color: #fff;
+    background-color:palevioletred;
+border:0;
+outline: none;
+border-radius: 4px;
+cursor: pointer;
+box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+#stop-button{
+    font-family: arial;
+    color: #fff;
+    background-color:palevioletred;
+border:0;
+outline: none;
+border-radius: 4px;
+cursor: pointer;
+box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
