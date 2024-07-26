@@ -2,7 +2,7 @@ body {
     background: url("./att.OA028wU-5HgB9aDHi6z8uPRgv7mW7AbK7mxW8YDmEwA.jpg");
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-    
+
     
 }
 
@@ -38,6 +38,7 @@ a{
 }
 h2{
     text-align: center;
+    font-size: large;
 }
 .popup{
     width: 200px;
@@ -130,4 +131,9 @@ outline: none;
 border-radius: 4px;
 cursor: pointer;
 box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.audio{
+    display: block;
+    margin: 10px auto;
 }
